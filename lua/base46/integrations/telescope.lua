@@ -1,7 +1,6 @@
 local colors = require("base46").get_theme_tb "base_30"
 
 return {
-
   TelescopeBorder = {
     fg = colors.darker_black,
     bg = colors.darker_black,
@@ -22,7 +21,7 @@ return {
     bg = colors.black2,
   },
 
-  TelescopeNormal = { bg = colors.darker_black },
+  -- TelescopeNormal = { bg = colors.grey },
 
   TelescopePreviewTitle = {
     fg = colors.black,
@@ -36,7 +35,7 @@ return {
 
   TelescopeResultsTitle = {
     fg = colors.darker_black,
-    bg = colors.darker_black,
+    bg = colors.grey,
   },
 
   TelescopeSelection = { bg = colors.black2, fg = colors.white },
